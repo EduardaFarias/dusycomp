@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');
+
+
+
 .App-header {
   background-image: url("https://c0.wallpaperflare.com/path/900/707/759/shinjuku-japan-night-tokyo-c979943792a2cda80f3261d39096206b.jpg");
   background-color: #282c34;
@@ -29,3 +33,13 @@
   z-index: 2;
 }
 
+.title{
+  z-index: 2;
+  color: hsl(302, 100%, 86%);
+  font-family: "Jersey 20 Charted", sans-serif;
+  font-size: 90px;
+  text-align: left;
+  margin-right: 900px;
+  margin-bottom: 250px;
+  font-size: 130px;
+}
