@@ -1,8 +1,10 @@
 import './App.css';
+import SuperBar from './components/superBar/SuperBar';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <SuperBar></SuperBar>
+      <header className="App-header">          
         <div className="title">
           Dusycomp
         </div>

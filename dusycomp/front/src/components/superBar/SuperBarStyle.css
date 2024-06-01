@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.super-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(248, 122, 238, 0.403); /* Rosa transparente */
+    border-color:rgb(253, 130, 253);
+    border-style: solid;
+    position: fixed;
+    height: 75px;
+    width: 88%;
+    z-index: 1000;
+    border-radius: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+}
+
+.super-bar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    gap:250px;
+    margin: 185px;
+    padding: 0;
+
+}
+
+
+.super-bar-links a{
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 239, 254);
+    font-weight: bold;
+}
