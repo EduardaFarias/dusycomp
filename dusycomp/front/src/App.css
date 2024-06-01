@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap+family=Quicksand:wght@300..700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .App-header {
   background-image: url("https://c0.wallpaperflare.com/path/900/707/759/shinjuku-japan-night-tokyo-c979943792a2cda80f3261d39096206b.jpg");
@@ -34,6 +34,7 @@
 }
 
 .title{
+  position: fixed;
   z-index: 2;
   color: hsl(302, 100%, 86%);
   font-family: "Jersey 20 Charted", sans-serif;
@@ -42,4 +43,18 @@
   margin-right: 900px;
   margin-bottom: 140px;
   font-size: 130px;
+}
+
+.text-description {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  width: 457px;
+  text-align: justify; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  margin-top: 190px;
+  margin-left: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
